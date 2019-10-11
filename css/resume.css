@@ -1,0 +1,32 @@
+html,button,input,select,textarea{
+	color:#444;
+}
+html{	font-size: 1em;
+		line-height:1.4;
+	}
+body{
+	background-color: #777;
+}
+#wrapper{
+	max-width:900px;
+	min-width: 200px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+#wrapper header img{
+	float:right;
+	border:1px;
+	border:solid;
+	border-color:#ccc;
+	border-radius:3px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	
+}
+i.fas{
+	font-family:fontawesome !important;
+}
+header h1{
+	font-family: sancreek, fantasy;
+
+}
