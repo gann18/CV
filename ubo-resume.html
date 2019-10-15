@@ -28,64 +28,64 @@
 
 
 
-   <div id="wrapper">
-      <header>
-         <h1>Najjari Mohamed Hilal</h1>
-         <h2>Master DOSI</h2>
-         <img src="https://apprecs.org/ios/images/app-icons/256/7f/1054674559.jpg">
-         <h3>Nom: Najjari</h3>
-         <h3>Pr&eacute;nom: Mohamed Hilal</h3>
-         <h3>Adresse: 2 rue des archives </h3>
-         <h3>Email: Thegan18@gmail.com</h3>
+   <div id="wrapper" itemscope itemtype="http://schema.org/Person" >
+      <header >
+         <h1 itemprop="name">Najjari Mohamed Hilal</h1>
+         <h2 itemprop="title">Master DOSI</h2>
+         <img itemprop ="image" src="https://apprecs.org/ios/images/app-icons/256/7f/1054674559.jpg">
+         <h3 itemprop= "givenName">Nom: Najjari</h3>
+         <h3 itemprop="familyName">Pr&eacute;nom: Mohamed Hilal</h3>
+         <h3 itemprop="homeLocation">Adresse: 2 rue des archives </h3>
+         <h3 itemprop="email">Email: Thegan18@gmail.com</h3>
 
 
-         <article>
+         <article itemprop="description">
             <h2>Pr&eacute;sentation</h2>
-            <p>Bonjour, je m'appelle Najjari Mohamed Hilal,
+            <p >Bonjour, je m'appelle Najjari Mohamed Hilal,
                je suis étudiant en Master2 DOSI à UBO.
                Je suis prêt à commencer ma carrière en sciences
                informatiques après avoir terminé mon master cette année.</p>
          </article>
-         <article>
+         <article itemprop="description">
             <h2>Exp&eacute;riences professionnelles</h2>
             <p>Realisation d'un system de gestion. </br>
                Realisation d'un system automatic.
             </p>
-         </article>
-         <dl>
-            <dt>Comp&eacute;tences:</dt>
-            <dd>Hadoop</dd>
-            <dd>Python</dd>
-            <dd>Mysql</dd>
-            <dd>Oracle</dd>
-            <dd>Neo4j</dd>
+         </article   >
+         <dl itemscope itemtype="http://schema.org/ItemList">
+            <dt itemprop="name">Comp&eacute;tences:</dt>
+            <dd itemprop ="itemListElement">Hadoop</dd>
+            <dd itemprop ="itemListElement">Python</dd>
+            <dd itemprop ="itemListElement">Mysql</dd>
+            <dd itemprop ="itemListElement">Oracle</dd>
+            <dd itemprop ="itemListElement">Neo4j</dd>
             <section>
-               <h2>Formation</h2>
+               <h2 itemprop="name">Formation</h2>
                <dl>
-                  <dt>2019</dt>
-                  <dd>Master2 DOSI</dd>
-                  <dt>2018</dt>
-                  <dd>Master1 Mobiquité & Big data</dd>
+                  <dt itemprop ="itemListElement">2019</dt>
+                  <dd itemprop ="itemListElement">Master2 DOSI</dd>
+                  <dt itemprop ="itemListElement">2018</dt>
+                  <dd itemprop ="itemListElement">Master1 Mobiquité & Big data</dd>
                </dl>
             </section>
-            <dt>Langues</dt>
+            <dt itemprop="name">Langues</dt>
             <dd></dd>
             <dl>
-               <dt>Arabe</dt>
-               <dd>Natale</dd>
-               <dt>Français</dt>
-               <dd>Niveau B2</dd>
-               <dt>Anglais</dt>
-               <dd>Niveau B2</dd>
+               <dt itemprop ="itemListElement">Arabe</dt>
+               <dd itemprop ="description">Natale</dd>
+               <dt itemprop ="itemListElement">Français</dt>
+               <dd itemprop ="description">Niveau B2</dd>
+               <dt itemprop ="itemListElement">Anglais</dt>
+               <dd itemprop ="description">Niveau B2</dd>
 
             </dl>
 
          </dl>
          <footer>
-            <dt>Facebook: <a href="https://fr-fr.facebook.com/">lien</a></dt>
-            <dd>Contactez-moi depuis mon facebook</dd>
-            <dt>Github: <a href="">lien</a></dt>
-            <dd>Voir mes projets en cours</dd>
+            <dt itemprop="url">Facebook: <a href="https://fr-fr.facebook.com/">lien</a></dt>
+            <dd itemprop="description">Contactez-moi depuis mon facebook</dd>
+            <dt itemprop="url">Github: <a href="https://github.com/gann18/CV">lien</a></dt>
+            <dd itemprop="description">Voir mes projets en cours</dd>
          </footer>
       </header>
       <i class="fas fa-camera-retro"></i>
